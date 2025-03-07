@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wiki">
+      <div class="wikipedia">
+        <i class="fa-solid fa-bars"></i>
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+          height="50px"
+          width="50px"
+        />
+        <h2>Wikipedia</h2>
+        <input type="search" placeholder="Search" class="sea" />
+        <button class="btn">Search</button>
+      </div>
+      <div class="right">
+        <button>Create account</button>
+        <button>Log in</button>
+      </div>
+    </div>
+    <div class="apj">
+      <h1>A.P.J. Abdul Kalam</h1>
+
+      <select name="" id="">
+        <option value="">84 Languages</option>
+        <option value="">English</option>
+        <option value="">Punjabi</option>
+        <option value="">Marathi</option>
+        <option value="">Gujrati</option>
+        <option value="">Bengali</option>
+        <option value="">Kannad</option>
+        <option value="">Hindi</option>
+      </select>
+    </div>
+    <hr />
+    <div class="navbar">
+      <div class="left">
+        <ul>
+          <li><a href="">Article</a></li>
+          <li><a href="">Talk</a></li>
+        </ul>
+      </div>
+      <div class="right2">
+        <ul>
+          <li><a href="">Read</a></li>
+          <li><a href="">View source</a></li>
+          <li><a href="">View history</a></li>
+        </ul>
+        <select name="" id="" class="tools">
+          <option value="">Tools</option>
+          <option value="">what link here</option>
+          <option value="">related changes</option>
+          <option value="">Special pages</option>
+          <option value="">permanent link</option>
+          <option value="">page information</option>
+          <option value="">cite this page</option>
+          <option value="">wikidata item</option>
+        </select>
+      </div>
+    </div>
+
+    <hr />
+    <div class="content">
+      <div class="contain">
+        <p>
+          Avul Pakir Jainulabdeen Abdul Kalam BR (/ˈəbdʊl kəˈlɑːm/ ⓘ; 15 October
+          1931 – 27 July 2015) was an Indian aerospace scientist and statesman
+          who served as the 11th president of India from 2002 to 2007. Born and
+          raised in a Muslim family in Rameswaram, Tamil Nadu, he studied
+          physics and aerospace engineering. He spent the next four decades as a
+          scientist and science administrator, mainly at the Defence Research
+          and Development Organisation (DRDO) and Indian Space Research
+          Organisation (ISRO) and was intimately involved in India's civilian
+          space programme and military missile development efforts.[1] He thus
+          came to be known as the Missile Man of India for his work on the
+          development of ballistic missile and launch vehicle
+          technology.[2][3][4] He also played a pivotal organisational,
+          technical, and political role in India's Pokhran-II nuclear tests in
+          1998, the first since the original nuclear test by India in 1974.[5]
+          Kalam was elected as the 11th president of India in 2002 with the
+          support of both the ruling Bharatiya Janata Party and the
+          then-opposition Indian National Congress. Widely referred to as the
+          "People's President",[6] he returned to his civilian life of
+          education, writing and public service after a single term. He was a
+          recipient of several prestigious awards, including the Bharat Ratna,
+          India's highest civilian honour. While delivering a lecture at the
+          Indian Institute of Management Shillong, Kalam collapsed and died from
+          an apparent cardiac arrest on 27 July 2015, aged 83.[7] Thousands,
+          including national-level dignitaries, attended the funeral ceremony
+          held in his hometown of Rameswaram, where he was buried with full
+          state honours.
+        </p>
+      </div>
+      <div class="img">
+        <h2>A.P.J Abdul Kalam</h2>
+        <img
+          src="apj.jpg
+        "
+          alt=""
+        />
+        <p>
+          Official portrait, 2002 11th President of India In office 25 July 2002
+          – 25 July 2007 Prime Minister Atal Bihari Vajpayee Manmohan Singh Vice
+          President Krishan Kant Bhairon Singh Shekhawat Preceded by K. R.
+          Narayanan Succeeded by Pratibha Patil 1st Principal Scientific Adviser
+          to the Government of India In office November 1999 – November 2001
+          President K. R. Narayanan Prime Minister Atal Bihari Vajpayee Preceded
+          by Office established Succeeded by Rajagopala Chidambaram Personal
+          details Born 15 October 1931 Rameswaram, Madras Presidency, British
+          India (modern–day Tamil Nadu, India) Died 27 July 2015 (aged 83)
+          Shillong, Meghalaya, India Resting place Dr. A.P.J. Abdul Kalam
+          Memorial, Rameswaram, Tamil Nadu, India Political party Independent[fn
+          1] Alma mater St. Joseph's College, Tiruchirappalli (BEng) Madras
+          Institute of Technology (MEng) Profession Aerospace ScientistAuthor
+          Awards Full list Notable work(s) Wings of Fire India 2020
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
